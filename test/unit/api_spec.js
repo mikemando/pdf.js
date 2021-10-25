@@ -1164,6 +1164,7 @@ describe("api", function () {
       expect(info.IsLinearized).toEqual(false);
       expect(info.IsAcroFormPresent).toEqual(false);
       expect(info.IsXFAPresent).toEqual(false);
+      expect(info.EncryptFilterName).toEqual(null);
       expect(info.IsCollectionPresent).toEqual(false);
       expect(info.IsSignaturesPresent).toEqual(false);
 
@@ -1198,6 +1199,7 @@ describe("api", function () {
       expect(info.IsLinearized).toEqual(false);
       expect(info.IsAcroFormPresent).toEqual(false);
       expect(info.IsXFAPresent).toEqual(false);
+      expect(info.EncryptFilterName).toEqual(null);
       expect(info.IsCollectionPresent).toEqual(false);
       expect(info.IsSignaturesPresent).toEqual(false);
 
@@ -1219,6 +1221,7 @@ describe("api", function () {
       expect(info.IsLinearized).toEqual(false);
       expect(info.IsAcroFormPresent).toEqual(false);
       expect(info.IsXFAPresent).toEqual(false);
+      expect(info.EncryptFilterName).toEqual(null);
       expect(info.IsCollectionPresent).toEqual(false);
       expect(info.IsSignaturesPresent).toEqual(false);
 
